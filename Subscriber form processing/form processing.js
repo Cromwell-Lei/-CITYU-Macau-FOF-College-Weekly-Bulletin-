@@ -1,4 +1,4 @@
-// 先安装所需的包：express, body-parser, fs, nodemailer, node-cron
+// 1先安装所需的包：express, body-parser, fs, nodemailer, node-cron
 // npm install express body-parser fs nodemailer node-cron
 
 const express = require('express');
