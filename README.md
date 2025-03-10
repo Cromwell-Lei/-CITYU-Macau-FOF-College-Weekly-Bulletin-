@@ -7,4 +7,5 @@ This is a weekly report system developed for the Faculty of Finance of City Univ
 For any questions, please contact: 1049888453macau@gmail.com<br>
 # 希望的改进方向
 1.将openai的生成替换成便宜且适应中国内地网络环境的deepseek（因为服务器部署在内地）<br>
-2.将目前简陋的输出report直接发送给订阅者，更新为使用HTML模板排版包装后再发送
+2.将目前简陋的输出report直接发送给订阅者，更新为使用HTML模板排版包装后再发送<br>
+3.准备一段npm代码并上传以一次性安装本项目所有依赖的包
