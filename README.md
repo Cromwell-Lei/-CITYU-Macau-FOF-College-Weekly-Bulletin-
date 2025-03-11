@@ -10,5 +10,6 @@ For any questions, please contact: 1049888453macau@gmail.com<br>
 1.将openai的生成替换成便宜且适应中国内地网络环境的deepseek（因为服务器部署在内地）<br>
 2.将目前简陋的输出report直接发送给订阅者，更新为使用HTML模板排版包装后再发送<br>
 3.准备一段npm代码并上传以一次性安装本项目所有依赖的包<br>
-4.加上订阅确认邮件功能
-![示例图片](https://github.com/Cromwell-Lei/-CITYU-Macau-FOF-College-Weekly-Bulletin-/blob/main/figures%20of%20cityu/紀念品圖標souvenir_icon.png)
+4.加上订阅确认邮件功能<br>
+<br>
+![示例图片](https://github.com/Cromwell-Lei/-CITYU-Macau-FOF-College-Weekly-Bulletin-/blob/main/figures%20of%20cityu/FOF.png)
