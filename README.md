@@ -12,4 +12,3 @@ For any questions, please contact: 1049888453macau@gmail.com<br>
 3.准备一段npm代码并上传以一次性安装本项目所有依赖的包<br>
 4.加上订阅确认邮件功能<br>
 <br>
-![示例图片](https://github.com/Cromwell-Lei/-CITYU-Macau-FOF-College-Weekly-Bulletin-/blob/main/figures%20of%20cityu/FOF.png)
