@@ -1,4 +1,5 @@
 # 澳门城市大学金融学院周报-《City Finance Times》
+![示例图片](https://github.com/Cromwell-Lei/-CITYU-Macau-FOF-College-Weekly-Bulletin-/blob/main/bulletin%20title/学院周刊title-1.png)
 澳门城市大学金融学院周报-《City Finance Times》<br>
 这是一个为澳门城市大学金融学院开发的周报系统。能够每周生成周报报道市场主要动态和相关新闻，以及学院内部的活动预告和其他相关栏目。读者可以通过填写表单订阅，订阅后，每周五将通过邮件寄送本周周报给读者。相关内容正在持续开发中。这是本人的个人项目，与学院官方暂时无任何关系。<br>
 任何问题联系：1049888453macau@gmail.com<br>
