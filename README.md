@@ -6,6 +6,8 @@
 [City Finance Times]:The Weekly Report of the Faculty of Finance, City University of Macau
 This is a weekly report system developed for the Faculty of Finance of City University of Macau. It can generate a weekly report every week, covering the main market dynamics and related news, as well as activity previews and other relevant sections within the faculty. Readers can subscribe by filling out a form. After subscribing, the weekly report of the current week will be sent to readers via email every Friday. Relevant content is still under continuous development. This is my personal project and has no official connection with the faculty for the time being.<br>
 For any questions, please contact: 1049888453macau@gmail.com<br>
+# 部署注意事项
+文件[openai make content]和[deepseek make]两者选择一个安装部署，不可同时存在，后者代码有待改进
 # 希望的改进方向
 1.将openai的生成替换成便宜且适应中国内地网络环境的deepseek（因为服务器部署在内地）<br>
 2.将目前简陋的输出report直接发送给订阅者，更新为使用HTML模板排版包装后再发送<br>
