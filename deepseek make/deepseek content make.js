@@ -9,7 +9,7 @@ const openai = new OpenAI({
 //下面这一段如何填写提示词？
 async function generateWeeklyReport() {
   const completion = await openai.chat.completions.create({
-    messages: [{ role: "system", content: "You are a helpful assistant." }],
+    messages: [{ role: "system", content: "你是一个专业的财经报刊记者，正在编写这周的周刊内容，你的读者偏好阅读相对精炼的文章和有数据支撑的内容" }],
     model: "deepseek-chat",
   });
     const prompts = [
