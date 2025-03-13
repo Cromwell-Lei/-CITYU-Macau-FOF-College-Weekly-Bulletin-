@@ -21,7 +21,7 @@ async function generateWeeklyReport() {
     const responses = await Promise.all(prompts.map(prompt => openai.createCompletion({
         model: 'text-davinci-002',
         prompt: prompt,
-        max_tokens: 500,
+        max_tokens: 800,
     })));
 
     const report = `
