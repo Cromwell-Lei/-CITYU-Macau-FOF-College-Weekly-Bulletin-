@@ -1,10 +1,17 @@
-const { Configuration, OpenAIApi } = require('openai');
-const configuration = new Configuration({
-    apiKey: 'YOUR_OPENAI_API_KEY',
-});
-const openai = new OpenAIApi(configuration);
+// Please install OpenAI SDK first: `npm install openai`(finished)
+npm install openai
+import OpenAI from "openai";
 
+const openai = new OpenAI({
+        baseURL: 'https://api.deepseek.com',
+        apiKey: '<DeepSeek API Key>'
+});
+//下面这一段如何填写提示词？
 async function generateWeeklyReport() {
+  const completion = await openai.chat.completions.create({
+    messages: [{ role: "system", content: "You are a helpful assistant." }],
+    model: "deepseek-chat",
+  });
     const prompts = [
         '请你总结本周七天内以中国为主，世界其他地区为辅的世界金融市场动态。并分为两个板块1.中国动态和2.世界动态。模仿雅虎财经进行写作。',
         '分点列出本周世界主要五大市场股市行情。',
@@ -30,4 +37,9 @@ async function generateWeeklyReport() {
     `;
 
     return report;
+
+  console.log(completion.choices[0].message.content);
 }
+
+generateWeeklyReport();
+//以上是新更改的deepseek的api调用，有待debug
