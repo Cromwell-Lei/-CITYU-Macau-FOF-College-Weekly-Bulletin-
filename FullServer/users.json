@@ -1,0 +1,37 @@
+{
+    "1783522055@qq.com": {
+        "name": "aaa",
+        "grade": "qq",
+        "department": "qq",
+        "remarks": "",
+        "verified": true
+    },
+    "1603186528@qq.com": {
+        "name": "114",
+        "grade": "514",
+        "department": "1919",
+        "remarks": "123123",
+        "verified": false
+    },
+    "3122742760@qq.com": {
+        "name": "aaaddjsj",
+        "grade": "jdjabvd",
+        "department": "hdisjbsbs",
+        "remarks": "",
+        "verified": false
+    },
+    "YYYuns@163.com": {
+        "name": "小菜同学",
+        "grade": "一年级",
+        "department": "计网学院",
+        "remarks": "",
+        "verified": true
+    },
+    "1049888453macau@gmail.com": {
+        "name": "雷晨俊",
+        "grade": "4",
+        "department": "金融学院",
+        "remarks": "",
+        "verified": true
+    }
+}
