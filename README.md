@@ -9,7 +9,6 @@ For any questions, please contact: 1049888453macau@gmail.com<br>
 # 部署注意事项
 文件[openai make content]和[deepseek make]两者选择一个安装部署，不可同时存在，后者代码有待改进
 # 希望的改进方向
-1.将openai的生成替换成便宜且适应中国内地网络环境的deepseek（因为服务器部署在内地）<br>
-2.将目前简陋的输出report直接发送给订阅者，更新为使用HTML模板排版包装后再发送<br>
-3.优化提示词，以更好的输出高质量内容
+1.将目前简陋的输出report直接发送给订阅者，更新为使用HTML模板排版包装后再发送<br>
+2.优化提示词，以更好的输出高质量内容
 <br>
