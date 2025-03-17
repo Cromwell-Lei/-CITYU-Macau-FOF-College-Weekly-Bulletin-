@@ -11,11 +11,16 @@ async function generateWeeklyReport() {
         '分为板块1.澳门、2.内地及港台、3.国际经济，分别撰写每个板块200字以内的本周主要经济新闻摘要。',
     ];
 
-    const responses = await Promise.all(prompts.map(prompt => openai.createCompletion({
-        model: 'text-davinci-002',
-        prompt: prompt,
-        max_tokens: 500,
-    })));
+ try {
+        const responses = await Promise.all(prompts.map(async prompt => {
+            const response = await openai.createCompletion({
+                model: 'text-davinci-002',
+                prompt: prompt,
+                max_tokens: 500,
+            });
+            return response.data.choices[0].text.trim(); // 确保去除多余的空格
+        }));
+
 
     const report = `
         <h1>City Finance Times Weekly Report</h1>
@@ -30,4 +35,9 @@ async function generateWeeklyReport() {
     `;
 
     return report;
+} catch (error) {
+        console.error("Error generating report:", error);
+        throw error;
+    }
 }
+
