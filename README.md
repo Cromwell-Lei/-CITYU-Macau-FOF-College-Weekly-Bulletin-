@@ -12,5 +12,6 @@ For any questions, please contact: 1049888453macau@gmail.com<br>
 文件[openai make content]和[deepseek make]两者选择一个安装部署，不可同时存在，后者代码有待改进
 # 希望的改进方向
 1.将生成的内容填入html中<br>
-2.优化提示词，以更好的输出高质量内容
+2.优化提示词，以更好的输出高质量内容<br>
+3.新增学院活动预告板块
 <br>
