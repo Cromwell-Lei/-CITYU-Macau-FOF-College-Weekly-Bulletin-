@@ -1,4 +1,5 @@
 // Please install OpenAI SDK first: `npm install openai`(finished)
+npm init -y
 npm install openai
 import OpenAI from "openai";
 
