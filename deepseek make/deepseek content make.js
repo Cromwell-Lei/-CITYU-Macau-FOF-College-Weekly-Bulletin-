@@ -1,6 +1,5 @@
 // Please install OpenAI SDK first: `npm install openai`(finished)
-npm init -y
-npm install openai
+//命令行（终端或控制台）中运行代码'npm init -y'以初始化npm项目
 import OpenAI from "openai";
 
 const openai = new OpenAI({
