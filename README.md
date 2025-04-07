@@ -17,6 +17,8 @@ For any questions, please contact: 1049888453macau@gmail.com<br>
 cd "C:/Program Files/My Project"
 //初始化npm项目
 npm init -y
+//安装openai package
+npm install openai
 ```
 # 希望的改进方向
 1.将生成的内容填入html中<br>
