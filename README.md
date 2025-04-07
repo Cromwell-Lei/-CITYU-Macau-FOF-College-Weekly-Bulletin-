@@ -9,7 +9,15 @@ For any questions, please contact: 1049888453macau@gmail.com<br>
 # 预览
 ![示例图片](https://raw.githubusercontent.com/Cromwell-Lei/-CITYU-Macau-FOF-College-Weekly-Bulletin-/refs/heads/main/preview.png)
 # 部署注意事项
-文件[openai make content]和[deepseek make]两者选择一个安装部署，不可同时存在，后者代码有待改进
+文件[openai make content]和[deepseek make]两者选择一个安装部署，不可同时存在，后者代码有待改进<br>
+## 部署前先在环境中初始化npm项目
+```bash
+//打开命令指示符运行
+// 更改当前工作目录
+cd "C:/Program Files/My Project"
+//初始化npm项目
+npm init -y
+```
 # 希望的改进方向
 1.将生成的内容填入html中<br>
 2.优化提示词，以更好的输出高质量内容<br>
