@@ -1,4 +1,4 @@
-// Please install OpenAI SDK first: `npm install openai`(finished)
+// Please install OpenAI SDK first: `npm install openai`(在命令行安装该包，详见readme初始化教程)
 //命令行（终端或控制台）中运行代码'npm init -y'以初始化npm项目
 import OpenAI from "openai";
 
