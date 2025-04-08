@@ -13,7 +13,7 @@ For any questions, please contact: 1049888453macau@gmail.com<br>
 ## 部署前先在环境中初始化npm项目
 ```bash
 //打开命令指示符运行
-// 更改当前工作目录
+// 更改当前工作目录，将下面的路径更换为项目地址即可
 cd "C:/Program Files/My Project"
 //初始化npm项目
 npm init -y
