@@ -8,18 +8,29 @@ This is a weekly report system developed for the Faculty of Finance of City Univ
 For any questions, please contact: 1049888453macau@gmail.com<br>
 # 预览
 ![示例图片](https://raw.githubusercontent.com/Cromwell-Lei/-CITYU-Macau-FOF-College-Weekly-Bulletin-/refs/heads/main/preview.png)
-# 部署注意事项
+# 部署
 文件[openai make content]和[deepseek make]两者选择一个安装部署，不可同时存在，后者代码有待改进<br>
+以下是本项目的部署方法，将按照步骤顺序展开描述
+
+## 克隆本项目到本地或服务器
+```bash
+//命令指示符运行
+git clone https://github.com/Cromwell-Lei/-CITYU-Macau-FOF-College-Weekly-Bulletin-.git
+```
 ## 部署前先在环境中初始化npm项目
 ```bash
-//打开命令指示符运行
+//命令指示符运行
 // 更改当前工作目录，将下面的路径更换为项目地址即可
 cd "C:/Program Files/My Project"
-//初始化npm项目
+//初始化npm项目，创建package.json文件
 npm init -y
+```
+## 安装依赖项
+```bash
 //安装openai package
 npm install openai
 ```
+
 # 希望的改进方向
 1.将生成的内容填入html中<br>
 2.优化提示词，以更好的输出高质量内容<br>
