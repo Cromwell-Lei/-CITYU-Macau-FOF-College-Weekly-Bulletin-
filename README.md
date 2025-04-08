@@ -10,7 +10,7 @@ For any questions, please contact: 1049888453macau@gmail.com<br>
 ![示例图片](https://raw.githubusercontent.com/Cromwell-Lei/-CITYU-Macau-FOF-College-Weekly-Bulletin-/refs/heads/main/preview.png)
 # 部署
 文件[openai make content]和[deepseek make]两者选择一个安装部署，不可同时存在，后者代码有待改进<br>
-以下是本项目的部署方法，将按照步骤顺序展开描述
+**以下是本项目的部署方法，将按照步骤顺序展开描述**
 
 ## 克隆本项目到本地或服务器
 ```bash
