@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+//在这个示例中，AI生成的内容被存储在变量 aiGeneratedContent 中
+//然后通过JavaScript将其插入到id为 ai-content 的 div 中
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Generated Content</title>
+</head>
+<body>
+    <div id="ai-content">
+        <!-- AI生成的内容将插入到这个区域 -->
+    </div>
+
+    <script>
+        // 假设这里是AI生成的内容
+        const aiGeneratedContent = "这是AI生成的内容。";
+
+        // 获取指定的HTML区域
+        const contentDiv = document.getElementById('ai-content');
+
+        // 将AI生成的内容插入到指定的HTML区域
+        contentDiv.innerHTML = aiGeneratedContent;
+    </script>
+</body>
+</html>
